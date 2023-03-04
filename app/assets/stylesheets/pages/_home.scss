@@ -1,1 +1,15 @@
 // Specific CSS for your home-page
+
+body {
+  background-color: $yellow;
+  width: 100%;
+  height: 100vh;
+
+  h1 {
+    font-size: 56px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-weight: bold
+  }
+
+}
