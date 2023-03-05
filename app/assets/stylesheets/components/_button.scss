@@ -1,14 +1,16 @@
 .btn-sign-up {
-  color: #0e0000;
-  // background: white;
-  border: 2px solid #0e0000;
+  color: antiquewhite;
+  background-color: #F7CA47;
+  border: 2px solid white;
+  box-shadow: 1px 1px grey;
   padding: 4px 16px;
   border-radius: 50px;
   font-weight: lighter;
   font-size: 23px;
+  text-shadow: 1px 1px grey;
   margin-top: -5px;
   margin-bottom: 5px;
-  opacity: 0.7;
+  opacity: 1;
   transition: opacity 0.4s ease;
 }
 
@@ -16,4 +18,6 @@
   opacity: 1;
   color: #0e0000;
   background-color: antiquewhite;
+  box-shadow: none;
+  text-shadow: none;
 }
