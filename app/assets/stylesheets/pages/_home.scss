@@ -1,27 +1,12 @@
 .background {
-  // position: absolute;
+
   background: url(https://res.cloudinary.com/dq1yih0di/image/upload/v1677966594/gooi/steven-weeks-DUPFowqI6oI-unsplash_z4jeox.jpg);
   background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
-  // width: 100vw;
-  // height: 100vh;
+  background-position: center center;
+  min-height: 100vh;
 }
 
-.my-container {
-  position: relative;
-  background-color: antiquewhite;
-  // background: rgba(255, 255, 255, 0.29);
-  border-radius: 25px;
-  opacity: 0.8;
-  width: 85%;
-  // text-align: center;
-  // border-radius: 5px;
-  margin: auto;
-  padding: 12px 32px 12px 32px;
-
-
-}
 .body-content {
   // position: relative;
   text-align: center;
@@ -42,6 +27,20 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     margin-top: 8px;
   }
+
+}
+.body-blurb {
+  position: relative;
+  background-color: antiquewhite;
+  // background: rgba(255, 255, 255, 0.29);
+  border-radius: 25px;
+  opacity: 0.8;
+  width: 85%;
+  // text-align: center;
+  // border-radius: 5px;
+  margin: auto;
+  padding: 12px 32px 12px 32px;
+
 
 }
 .logo-big {
