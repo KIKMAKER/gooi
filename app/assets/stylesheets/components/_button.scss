@@ -1,13 +1,13 @@
 .btn-sign-up {
   color: white;
-  background-color: #F7CA47;
+  background-color: #f2ba45;
 
   border: 2px solid white;
 
   padding: 4px 16px;
   border-radius: 50px;
   font-weight: lighter;
-  font-size: 23px;
+  font-size: 4vmin;
   box-shadow: 1px 1px lightgray;
   text-shadow: 1px 1px lightgrey;
   margin-top: -5px;
@@ -18,8 +18,8 @@
 
 .btn-sign-up:hover {
   color: #0e0000;
-  background-color: antiquewhite;
-  border: 2px solid #F7CA47;
+  background-color: white;
+  border: 2px solid rgb(32, 72, 59);
   // box-shadow: 1px 1px lightgray;
   box-shadow: none;
   text-shadow: none;

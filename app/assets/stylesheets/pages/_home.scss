@@ -1,10 +1,16 @@
 .background {
 
-  background: url(https://res.cloudinary.com/dq1yih0di/image/upload/v1677966594/gooi/steven-weeks-DUPFowqI6oI-unsplash_z4jeox.jpg);
+  background: url(https://res.cloudinary.com/dq1yih0di/image/upload/v1686579712/Artboard_1_copy_6_1_300x-100_ono6ur.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 100vh;
+}
+
+.logo-bg {
+  background-color: white;
+  margin: auto;
+  width: 85%;
 }
 
 .body-content {
@@ -15,23 +21,19 @@
   // background: #FDE799;
 
   h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     // font-size: 40px;
     font-weight: bold;
     margin-top: 16px;
   }
 
-  h2 {
-    color: white;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    margin-top: 8px;
-  }
+
 
 }
 .body-blurb {
   position: relative;
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
   // background: rgba(255, 255, 255, 0.29);
   border-radius: 25px;
   width: 85%;
@@ -39,7 +41,15 @@
   // border-radius: 5px;
   margin: auto;
   padding: 12px 32px 12px 32px;
+  box-shadow: rgba(32, 72, 59, 0.3) 0px 0px 0px 3px;
 
+  h2 {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+  }
 
 }
 .logo-big {
